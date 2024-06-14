@@ -1,0 +1,30 @@
+html {margin: auto;}
+header, nav, main, footer, h1 {display: block;}
+body {color: #23870B;
+	font-size:large;
+	font-family: courier;}
+h1 {color: #23870B;
+	text-align: center;}
+#headimg {display: none;}
+#headtext {margin: 10px;
+	margin-left:0px;
+	font-size: 300%;}
+li {margin:10px;
+	margin-left:0px;}
+header {position: relative;
+	left: 70px;}
+.rightside {width: 90%}
+main {clear: right;}
+.center {display: block;
+	margin-left: auto;
+	margin-right: auto;}
+#external {color: #F07DD6;}
+nav {display: none;}
+ul {list-style-type: none;}
+a {text-decoration: none;}
+a:link {color: #17F3F3}
+a:visited {color: #905AF5}
+a:hover {color: #C42EF9}
+a:active {color: #EAEE15}
+footer{clear: both;
+	text-align: center;}

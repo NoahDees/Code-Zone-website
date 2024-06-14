@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="czmedia.css" media="screen">
+<link rel="stylesheet" href="czprint.css" media="print">
+<style type="text/css">
+	h4{color: #FF5733;}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+
+	<header>
+		<div class="leftside">
+		<a href="mainpage.html">
+			<img src="computerimage.gif" width="90" height="90" id="headimg" alt="computerimage">
+		</a>
+		</div>
+
+		<div class="rightside">
+			<h1 id="headtext">CSS</h1>
+		</div>
+	</header>
+
+	<div class="leftside">
+	<nav>
+		<ul>
+		<ul>
+			<li><a href="mainpage.html">Home</a></li>
+			<li><a href="basichtml.html">Basic HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+			<li><a href="hyperlinks.html">Hyperlinks</a></li>
+			<li><a href="bestpractices.html">Best Practices</a></li>
+			<li><a href="forfun.html">For Fun</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="moreinfo.html">More Information & Sources</a></li>
+		</ul>
+		</ul>
+	</nav>
+	</div>
+
+	<div class="rightside">
+	<main>
+		<p>Cascading Style Sheets (CSS) is the easiest and simplest way to customize your webpage. You can change the size, color, font, or just about anything else you can think of. You can also use it to format your site, to make everything line up and look nice. We used it in countless places, and one that you can easily see is the pretty black border on the left side, which helps our gif and links line up! There are three ways to apply CSS to your webpage, we're going to show you how and when to use them.</p>
+
+		<p> You can use inline CSS, or putting in right in your HTML code in order to alter its propterties. This is especially useful for little changes that you will use only once.</p>
+		<h4 style="color:#4DB6F1;">like this</h4>
+		<img src="inlinecss.png" width="590" height="54" alt="inline css image code" class="center">
+
+		<br>
+
+		<p>You can use internal CSS in the style section of your webpage. It normally goes at the head of your code. You  might like this when you're going to want to use that style more than once, but you only have one document to use it in.</p>
+
+
+		<h4>like this</h4>
+
+
+		<img src="internalhtml.png" width="414" height="69" alt="iternal css in html image code" class="center">
+		<br>
+		<img src="internalcss.png" width="414" height="128" alt="iternal css image code" class="center">
+
+		<p>Or you can make a whole different file for it with the extension .css that is just full of CSS code. That is what we opted for for the majority of our site. Since we had multiple pages and were constanly using the same ids and style, it made the most sense and made editing the style quick and easy. Just make an id for the style and call it in your HTML document.</p>
+		<h4 id="external">or like this</h4>
+		<img src="externalhtml.png" width="512" height="48" alt="external css in html image code" class="center">
+		<br>
+		<img src="externalcssid.png" width="512" height="49" alt="external css image code" class="center">
+
+		<p><br>The first images for the internal and external CSS code is our HTML code. For the internal style, we used the h4 tag to call the style. We created an id for the external CSS style, called external, and called it for the text. The CSS code is what the second pictures consists of. </p>
+		<br>
+		<br>
+
+	</main>
+	</div>
+
+
+
+	<footer>
+		<p>Copyright &copy; 2019</p>
+	</footer>
+
+</div>
+</body>
+</html>
